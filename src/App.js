@@ -1,12 +1,10 @@
 import "./App.css";
-
-import { CardInfo } from "./Components";
+import { Home } from "./Containers";
 
 function App() {
   return (
     <div>
-      {/* <Navbar /> */}
-      <CardInfo />
+      <Home />
     </div>
   );
 }
